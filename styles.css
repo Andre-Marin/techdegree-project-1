@@ -109,7 +109,6 @@ header .profile-image:hover {
   max-width: 100%;
   text-align: center;
   background: #fff;
-  border-bottom: 100% solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
@@ -188,10 +187,8 @@ a.social:hover {
 @media screen and (min-width: 720px) {
 
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
